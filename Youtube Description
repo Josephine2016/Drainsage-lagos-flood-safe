@@ -1,0 +1,35 @@
+DrainSage - Lagos Flood Safe | AWS COOL Hackathon MVP
+Build vision systems that see, reason, act
+
+PROBLEM:
+Every rainy season Lagos floods because drains are blocked. 200+ flood incidents in 2024. We built AI to prevent it.
+
+SOLUTION:
+Community takes drain photo → AI detects blockage → Sends SMS alert to LAWMA.
+
+LIVE MVP LINKS (Try it!):
+1️⃣ GitHub Pages (Main): https://josephine2016.github.io/Drainsage-lagos-flood-safe/
+2️⃣ AWS Lambda Function URL: https://bsinocbqqlapoduawagtn4gjjq040lkdu.lambda-url.us-west-2.on.aws/
+3️⃣ Netlify Backup: https://fanciful-kitsune-4d3db7.netlify.app
+
+ARCHITECTURE (COOL Optimized):
+- Frontend: GitHub Pages + Netlify (Static Hosting)
+- Backend: AWS Lambda on ARM64 Graviton4 - 40% cheaper, low carbon
+- Vision: OpenCV 5 + UNet 3.2M Model (See blockage)
+- Storage: Amazon S3 (Image Data Lake)
+- Reasoning: Amazon Bedrock Claude 3.5 Sonnet (Reason risk)
+- Action: Amazon SNS (Act - SMS alert)
+- Theme: Build vision systems that see, reason, act
+
+STACK: S3 + Lambda + Bedrock + SNS + CloudWatch
+DEMO: Upload any drain photo, get instant blockage % + flood risk.
+
+IMPACT:
+For Lagos communities, LAWMA, Lagos State Govt. Prevents floods before they happen.
+
+Built by: Josephine (Josephine Chukwu-Onwuchuruba) - Lagos, Nigeria
+Hackathon: AWS COOL + ADUADU
+
+#AWS #Graviton4 #Bedrock #Lambda #Lagos #FloodPrevention #AI #ComputerVision #UNet #OpenCV
+
+GitHub Repo: https://github.com/josephine2016/Drainsage-lagos-flood-safe
